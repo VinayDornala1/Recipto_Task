@@ -108,14 +108,6 @@ class _Ratnadeep_ScreenState extends State<Ratnadeep_Screen>
             builder: (context, state) {
               return Stack(
                 children: [
-                  /*Positioned.fill(child: Align(
-                    alignment: Alignment.bottomCenter,
-                    child: Align(
-                      alignment: Alignment.bottomCenter,
-                      child:
-                      bottomS
-                    ),
-                  ),),*/
                   NotificationListener<ScrollNotification>(
                     onNotification: (scrollNotification) {
                       if (scrollNotification is ScrollUpdateNotification) {
